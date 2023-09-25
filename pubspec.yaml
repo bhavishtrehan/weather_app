@@ -39,6 +39,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   http: ^1.1.0
   location: ^5.0.3
+  intl: ^0.18.1
+  ionicons: ^0.2.2
+  eva_icons_flutter: ^3.1.0
+  weather_icons: ^3.0.0
   
 
 dev_dependencies:
@@ -65,7 +69,10 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - images/sunny.png
+    - images/sunnyy.png
+    - images/night.png
+    - images/unnamed.png
+    - images/nightt.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -85,9 +92,9 @@ flutter:
         - asset: fonts/SourceSans3-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
+    - family: Work Sans
+      fonts:
+        - asset: fonts/WorkSans-VariableFont_wght.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
